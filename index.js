@@ -2,7 +2,6 @@
 const { Client, Intents } = require('discord.js'); //gets discord.js
 const { token, clientId, guildId } = require('./config.json');  //gets token from config.json
 
-const commands = ['ping', 'server', 'user'];
 // Create a client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
