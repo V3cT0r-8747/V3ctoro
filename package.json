@@ -1,0 +1,26 @@
+{
+  "name": "v3ctoro",
+  "version": "1.0.0",
+  "description": "A attempt at writing a discord bot using discord.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V3cT0r-8747/V3ctoro.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "V3cT0r-8747",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/V3cT0r-8747/V3ctoro/issues"
+  },
+  "homepage": "https://github.com/V3cT0r-8747/V3ctoro#readme",
+  "dependencies": {
+    "discord.js": "13.6.0"
+  }
+}
