@@ -4,7 +4,8 @@
   "description": "A attempt at writing a discord bot using discord.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node deploy-commands.js && node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
   },
   "homepage": "https://github.com/V3cT0r-8747/V3ctoro#readme",
   "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.33.1",
     "discord.js": "13.6.0"
   }
 }
